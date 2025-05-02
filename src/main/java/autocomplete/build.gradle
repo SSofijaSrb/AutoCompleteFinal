@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'autocomplete'
+version = '1.0'
+
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'autocomplete.AutoCompleteApp'
+}
